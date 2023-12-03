@@ -1,0 +1,18 @@
+-------------------------------------------------------------------------------
+Test set: RewardValueTests
+-------------------------------------------------------------------------------
+Tests run: 4, Failures: 2, Errors: 0, Skipped: 0, Time elapsed: 0.087 s <<< FAILURE! - in RewardValueTests
+RewardValueTests.convert_from_cash_to_miles  Time elapsed: 0.044 s  <<< FAILURE!
+java.lang.AssertionError
+	at RewardValueTests.convert_from_cash_to_miles(RewardValueTests.java:23)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+
+RewardValueTests.convert_from_miles_to_cash  Time elapsed: 0.003 s  <<< FAILURE!
+java.lang.AssertionError
+	at RewardValueTests.convert_from_miles_to_cash(RewardValueTests.java:28)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+
